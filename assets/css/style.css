@@ -17,6 +17,10 @@
     position: relative;
 }
 
+.banner .menu {
+  display: none;
+}
+
 .navbar {
     width: 85%;
     margin: auto;
@@ -129,4 +133,17 @@
 
   button:hover {
     border: 0;
+  }
+
+  @media (max-width:768px) {
+    
+    .banner .menu {
+      display: block;
+      font-size: 25px;
+      color: #50e5d6;
+    }
+    
+    .navbar ul {
+        display: none;
+      }
   }
